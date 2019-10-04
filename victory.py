@@ -40,5 +40,5 @@ while wish_play != 'нет':
     # выводим в %
     print('% верных ответов', user_score / len(questions) * 100)
     print('% неверных ответов', user_fail / len(questions) * 100)
-    wish_play = input('Начнем сначала?')
+    wish_play = input('Начнем сначала (да/нет)?')
     wish_play = wish_play.lower()
